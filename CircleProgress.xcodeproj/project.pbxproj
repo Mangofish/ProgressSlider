@@ -15,6 +15,7 @@
 		8A5348852083082500F5EDC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5348842083082500F5EDC7 /* main.m */; };
 		8A53488F2083082500F5EDC7 /* CircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A53488E2083082500F5EDC7 /* CircleProgressTests.m */; };
 		8A53489A2083082500F5EDC7 /* CircleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5348992083082500F5EDC7 /* CircleProgressUITests.m */; };
+		8A5348AA20830D5900F5EDC7 /* CircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5348A920830D5900F5EDC7 /* CircleProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8A5348952083082500F5EDC7 /* CircleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5348992083082500F5EDC7 /* CircleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressUITests.m; sourceTree = "<group>"; };
 		8A53489B2083082500F5EDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5348A820830D5900F5EDC7 /* CircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgress.h; sourceTree = "<group>"; };
+		8A5348A920830D5900F5EDC7 /* CircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		8A5348742083082500F5EDC7 /* CircleProgress */ = {
 			isa = PBXGroup;
 			children = (
+				8A5348A720830D2C00F5EDC7 /* CircleView */,
 				8A5348752083082500F5EDC7 /* AppDelegate.h */,
 				8A5348762083082500F5EDC7 /* AppDelegate.m */,
 				8A5348782083082500F5EDC7 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				8A53489B2083082500F5EDC7 /* Info.plist */,
 			);
 			path = CircleProgressUITests;
+			sourceTree = "<group>";
+		};
+		8A5348A720830D2C00F5EDC7 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				8A5348A820830D5900F5EDC7 /* CircleProgress.h */,
+				8A5348A920830D5900F5EDC7 /* CircleProgress.m */,
+			);
+			path = CircleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				8A53487A2083082500F5EDC7 /* ViewController.m in Sources */,
 				8A5348852083082500F5EDC7 /* main.m in Sources */,
+				8A5348AA20830D5900F5EDC7 /* CircleProgress.m in Sources */,
 				8A5348772083082500F5EDC7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
